@@ -61,8 +61,8 @@ class TripSpider(scrapy.Spider):
 
         if json_data:
             json_string = json_data.group(1)
-            with open('response.json', 'w', encoding='utf-8') as f:
-                f.write(json_string)
+            #with open('response.json', 'w', encoding='utf-8') as f:
+            #    f.write(json_string)
             hotel_data = json.loads(json_string)
 
             all_sections = ['inboundCities', 'outboundCities', 'fiveStarHotels', 'cheapHotels', 'hostelHotels']
