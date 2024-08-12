@@ -43,6 +43,10 @@ This project is a Scrapy spider designed to scrape hotel information from Trip.c
 3. Set up your PostgreSQL database and update the connection details in `hotel_model.py`.
 
 ## Usage
+To install require dependencies:
+```
+pip install scrapy sqlalchemy psycopg2-binary
+```
 
 To run the spider, use the following command:
 
