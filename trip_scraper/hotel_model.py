@@ -20,7 +20,7 @@ class Hotel(Base):
     section = Column(String)
 
 # Replace with your actual PostgreSQL connection details
-DATABASE_URL = "postgresql://postgres:p%40stgress@localhost:5432/hotel_info"
+DATABASE_URL = "postgresql://username:password@localhost:5432/database_name"
 engine = create_engine(DATABASE_URL)
 
 # Create the table
